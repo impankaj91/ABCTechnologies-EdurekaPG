@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: as178/testt:latest
+        image: as178/edureka:latest
         imagePullPolicy: Always
         resources:
           limits:
