@@ -12,3 +12,4 @@ RUN mvn package -Dmaven.test.skip=true
 
 FROM tomcat
 COPY --from=build /project/target/ABCtechnologies-1.0.war /usr/local/tomcat/webapps
+RUN mv /usr/local/tomcat/webapps/ABCtechnologies-1.0.war /usr/local/tomcat/webapps/ROOT.war 
