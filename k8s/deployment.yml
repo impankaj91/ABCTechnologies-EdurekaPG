@@ -13,7 +13,8 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: brainpay2021/test:1.0
+        image: as178/testt:latest
+        imagePullPolicy: Always
         resources:
           limits:
             memory: "128Mi"
