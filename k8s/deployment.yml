@@ -14,11 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: as178/edureka:latest
+        image: as178/edurekaproject:latest
         imagePullPolicy: Always
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 8080
